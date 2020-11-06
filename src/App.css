@@ -1,0 +1,223 @@
+.App{
+  
+  height:100vw;
+  width:100%;
+  
+}
+
+.Header{
+  background-color:rgb(207, 105, 31);
+  height: 79px;
+  width: 100vw;
+  font-size: 52px;
+  font-family: -apple;
+  padding-left: 17px;
+  color:#f9fdfd;
+  font-weight: bolder;
+  
+  
+}
+.CardHeader{
+  
+  background-color:chocolate;
+  height:75px;
+  border-radius: 35px;
+
+}
+
+.MainHeaderText {
+  
+  margin-top: 10px;
+  float: left;
+  width: 48%;
+}
+
+.SideText {
+  margin-top: 50px;
+  text-align: end;
+  font-size: 20px;
+}
+
+.Loader {
+  margin-left: 48%;
+  
+}
+.LocationData{
+  height: 340px;
+  width:400px;
+  margin-left: 36%;
+   font-size: 20px;
+  background-color:#9b98a7;
+  color:brown;
+  border-radius: 70px;
+  /*height:30px;
+  width:80px;*/
+
+  /*padding-left:40px;*/
+  
+  margin-top: 60px;
+  margin-bottom: 20px;
+  
+}
+
+
+  
+.LocationText{
+
+
+  
+  border-radius: 10px;
+   padding-top: 10px;
+   text-align: center;
+   /*padding-left: 28px;*/
+   font-size: 28px;
+   font-style: oblique;
+   font-weight: bold;
+   color:    #0d438a;
+}
+h1{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left:155px ;
+}
+h2{
+  margin-top: 0px;
+   margin-bottom: 1px;
+   padding-left: 150px;
+
+}
+h3{
+  font-style: italic;
+  padding-left: 39px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #ad3f26 ;
+}
+
+
+.Card{
+  float:left;
+  height: 39%;
+  width:30%;
+  background-color:#9b98a7;
+  
+  margin: 20px;
+  border-radius: 50px;  
+ /* border-width: 20px;
+  border-color: seagreen;*/
+  
+   text-align:center;
+  color: black;
+  font-size: 24px;
+}
+.DayText {
+ /* padding-top: 10px;*/
+  font-weight: bold;
+   /*text-align:center;*/
+  color: black;
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  
+}
+
+
+
+.TempText{
+  width:33%;
+  float:left;
+  font-size: 23px;
+  font-weight: bold;
+  margin-top:119px;
+  margin-bottom: 20px;
+  color:#042f66;
+}
+.TempmText{
+  width:50%;
+  float:left;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top:10px;
+  margin-bottom: 5px;
+  color: #042f66;
+}
+.TemppText{
+  width:198%;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top:30px;
+  margin-bottom: 20px;
+  color: #042f66;
+}
+
+.PropertyText {
+  width: 50%;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  color: #042f66;
+}
+
+.NameText {
+  width:33%;
+  float:left;
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  color: #042f66;
+}
+
+.HeaderText {
+  color:#bc5a45;
+  font-size: 24px;
+}
+/*.HeadermText {
+  text-align: center;
+  color: #80391e;
+  font-size: 24px;
+}*/
+
+
+.TimeText {
+  text-align: center;
+  color: #80391e;
+}
+.PropertysText {
+  width: 50%;
+  float: left;
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  
+  color: #042f66;
+}
+
+.HeadersText {
+  color: #80391e;
+  font-size: 20px;
+}
+
+
+.DateText {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  color: #042f66;
+}
+
+.SearchContainer{
+   margin-top: 50px;
+   margin-bottom: 35px;
+   margin-left: 38%;
+   
+
+}
+
+.CityName{
+  margin-top: 10px;
+   margin-bottom: 10px;
+   margin-left: 20px; 
+   color: crimson;
+} 
+
