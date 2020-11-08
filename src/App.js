@@ -4,9 +4,7 @@ import axios from "axios";
 import Loader from "react-loader-spinner";
 import './App.css'; 
 
-//
 
-/*const DayArray = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];*/
 
  const App = () => {
   const [cityName,setCityName] = useState("");
@@ -15,21 +13,6 @@ import './App.css';
   const [location,setLocation] = useState({});
   const [loading,setLoading] = useState(false); 
   const [curr, setCurr] = useState(false);
- /* const [forecast, setForecast] = useState({});*/
-
-  /*const date = new Date();
-  const day = date.getDay();
- const DayArray = [
-    { day: "Sun" , temp: 27},
-    { day: "Mon" , temp: 30},
-    { day: "Tue" , temp: 32},
-    { day: "Wed" , temp: 24},
-    { day: "Thu" , temp: 30},
-    { day: "Fri" , temp: 24},
-    { day: "Sat" , temp: 36},
-    
-    
-  ]; */
 
    const daysName = {
     0: "Sunday",
@@ -41,13 +24,7 @@ import './App.css';
     6: "Saturday",
   };
 
- /* const conditionBackground = {
-     /*Sunny:"sun.jpg"
-     "Partly cloudy":"pc.jpg"
-     /*Light,rain,shower:"rain.gif"
-     Mist:"mist.gif"
-     Snow:"snow.gif"
-  };*/
+ 
 
   const getWeatherForecast = () => {
     if(!cityName) {
@@ -63,24 +40,13 @@ import './App.css';
       setCurr(false);
       if(result.data){ 
         
-       /* setForecast(result.data.forecast);*/ 
+       
 
         const _forecast = result.data.forecast;
         setCurrent(result.data.current);
         setLocation(result.data.location);
         console.log("result", result.data);
-        //const _location = result.data.location;
-       /* const locArr=[];
-        locArr.location.forEach((ele) => {
-          console.log("ele",ele);
-            const object = {};
-            
-            object.localtime =ele.localtime;
-            object.country =ele.country;
-            object.name=ele.name;
-            object.region=ele.region;
-            locArr.push(object);
-        });*/
+      
 
         const newArr = [];
         _forecast.forecastday.forEach((elem) => {
@@ -103,13 +69,7 @@ import './App.css';
           obj.moonset = elem.astro.moonset;
           obj.moonphase = elem.astro.moon_phase;
       
-        // obj.localtime =elem.location.localtime;
-          //obj.country =elem.location.country;
-        // obj.name=elem.location.name;
-         // obj.region=elem.location.region;
-          
-
-          newArr.push(obj);
+            newArr.push(obj);
         });
          
         setDayArray(newArr);
@@ -173,24 +133,11 @@ import './App.css';
           <h3>Name : {location.name} </h3>      
           <h3>Region : {location.region} </h3>       
            <h3>Country : {location.country}</h3> 
-                   
-        
-      </div>) : null}
+           </div>) : null}
 
        
-         
-          
-        
-         
-      
-          
-
-        {dayArray.map((e) => {
+           {dayArray.map((e) => {
           return(
-           
-          
-          
-          
             // CARD  CONTAINER 1 
            
             <div className="Card">
@@ -219,11 +166,10 @@ import './App.css';
               <div className="TempText">
                 <div className="HeaderText">Max </div>
                 <div>  { e.max} &#8451; </div>
-                
-               
-                
-              </div>
-            </div>
+                </div>
+               </div>
+
+
             {/* Wind Speed & Humidity */}
             <div>
               <div className="PropertyText">

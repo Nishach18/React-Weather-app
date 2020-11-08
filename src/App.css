@@ -50,31 +50,23 @@
   background-color:#9b98a7;
   color:brown;
   border-radius: 70px;
-  /*height:30px;
-  width:80px;*/
-
-  /*padding-left:40px;*/
-  
   margin-top: 60px;
-  margin-bottom: 20px;
+   margin-bottom: 20px;
   
 }
 
 
   
 .LocationText{
-
-
-  
-  border-radius: 10px;
+ border-radius: 10px;
    padding-top: 10px;
    text-align: center;
-   /*padding-left: 28px;*/
    font-size: 28px;
    font-style: oblique;
    font-weight: bold;
    color:    #0d438a;
 }
+
 h1{
   margin-top: 0px;
   margin-bottom: 0px;
@@ -103,17 +95,12 @@ h3{
   
   margin: 20px;
   border-radius: 50px;  
- /* border-width: 20px;
-  border-color: seagreen;*/
-  
-   text-align:center;
+ text-align:center;
   color: black;
   font-size: 24px;
 }
 .DayText {
- /* padding-top: 10px;*/
   font-weight: bold;
-   /*text-align:center;*/
   color: black;
   font-size: 30px;
   margin-bottom: 10px;
@@ -172,11 +159,7 @@ h3{
   color:#bc5a45;
   font-size: 24px;
 }
-/*.HeadermText {
-  text-align: center;
-  color: #80391e;
-  font-size: 24px;
-}*/
+
 
 
 .TimeText {
